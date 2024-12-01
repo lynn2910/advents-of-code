@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "p1": "deno run --watch --allow-read src/puzzle_p1.ts",
+    "p2": "deno run --watch --allow-read src/puzzle_p2.ts"
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1"
+  }
+}
